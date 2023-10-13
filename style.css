@@ -1,0 +1,109 @@
+/* Reset some default styling */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 10px;
+}
+
+.menu.logo{
+    padding-top: 31%;
+    justify-content: left;
+    max-width: 452px;
+    height: 282px;
+    width: 890px;
+    margin-left: -50px;
+    margin-right: -90px;
+}
+.menu {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the menu symbol (hamburger icon) */
+.menu-symbol {
+    color: white;
+    font-size: 54px;
+    cursor: pointer;
+    padding: 10px;
+    float: left;
+}
+
+/* Style the menu items (initially hidden) */
+.menu-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+/* Style the menu item links */
+.menu-item {
+    display: inline;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+/* Change the link color on hover */
+.menu-item a:hover {
+    background-color: #444;
+}
+main {
+    padding: 20px;
+}
+
+/* Style image sections */
+.image-section {
+    padding: 20px;
+    margin: 20px;
+}
+.image-section h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* Style individual images */
+.image {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+/* Customize image classes */
+.image1 img {
+    width: 1300px;
+    height: 700px;
+}
+
+.image2 img {
+    width: 1300px;
+    height: 700px;
+}
+
+.image3 img {
+    width: 1300px;
+    height: 700px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
