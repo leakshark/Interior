@@ -78,10 +78,6 @@ main {
 }
 
 /* Style individual images */
-.image {
-    border: 1px solid #333;
-    padding: 10px;
-}
 
 /* Customize image classes */
 .image1 img {
